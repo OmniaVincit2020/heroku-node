@@ -42,7 +42,7 @@ var server = http.createServer(function(request,response){
 	if (request.url == '/'){
 		filePath = "public/index.html";
 	} else {
-		filePath = "public + request.url;
+		filePath = "public" + request.url;
 	}
 
 	var absPath = "./" + filePath;
