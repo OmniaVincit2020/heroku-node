@@ -1,1 +1,9 @@
-{water: "healthy", soda: "unhealthy"};
+{
+	"name" : "blog",
+	"version" : "0.0.1",
+	"description" : "My sparse blog.",
+	"dependencies" : {
+		"mime" : "~1.2.7"
+	}
+
+}
